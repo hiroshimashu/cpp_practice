@@ -11,6 +11,7 @@
 		5C746B59257E824200900D3D /* memorized_induction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B57257E824200900D3D /* memorized_induction.cpp */; };
 		5C746B5F25837D5C00900D3D /* Section3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B5D25837D5C00900D3D /* Section3.cpp */; };
 		5C746B662584A48A00900D3D /* division_problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B642584A48A00900D3D /* division_problem.cpp */; };
+		5C746B6C2584AE6C00900D3D /* binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B6A2584AE6C00900D3D /* binarySearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		5C746B5E25837D5C00900D3D /* Section3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Section3.hpp; sourceTree = "<group>"; };
 		5C746B642584A48A00900D3D /* division_problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = division_problem.cpp; sourceTree = "<group>"; };
 		5C746B652584A48A00900D3D /* division_problem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = division_problem.hpp; sourceTree = "<group>"; };
+		5C746B6A2584AE6C00900D3D /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
+		5C746B6B2584AE6C00900D3D /* binarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binarySearch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		5C44017924124FF50095787C /* C++ practice */ = {
 			isa = PBXGroup;
 			children = (
+				5C746B692584AE4B00900D3D /* BinarySearch */,
 				5C746B632584A45E00900D3D /* DivisionProblem */,
 				5C746B5C25837D4300900D3D /* CrashCourse */,
 				5C746B56257E820100900D3D /* FrogProblem */,
@@ -99,6 +103,15 @@
 				5C746B652584A48A00900D3D /* division_problem.hpp */,
 			);
 			path = DivisionProblem;
+			sourceTree = "<group>";
+		};
+		5C746B692584AE4B00900D3D /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				5C746B6A2584AE6C00900D3D /* binarySearch.cpp */,
+				5C746B6B2584AE6C00900D3D /* binarySearch.hpp */,
+			);
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C746B6C2584AE6C00900D3D /* binarySearch.cpp in Sources */,
 				5C746B59257E824200900D3D /* memorized_induction.cpp in Sources */,
 				5C44017B24124FF50095787C /* main.cpp in Sources */,
 				5C746B662584A48A00900D3D /* division_problem.cpp in Sources */,
