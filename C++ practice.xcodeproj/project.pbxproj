@@ -13,6 +13,7 @@
 		5C746B662584A48A00900D3D /* division_problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B642584A48A00900D3D /* division_problem.cpp */; };
 		5C746B6C2584AE6C00900D3D /* binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B6A2584AE6C00900D3D /* binarySearch.cpp */; };
 		5C746B722584D60C00900D3D /* partialSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B702584D60C00900D3D /* partialSum.cpp */; };
+		5C746B772585FEA000900D3D /* Secion4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C746B752585FEA000900D3D /* Secion4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		5C746B6B2584AE6C00900D3D /* binarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binarySearch.hpp; sourceTree = "<group>"; };
 		5C746B702584D60C00900D3D /* partialSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = partialSum.cpp; sourceTree = "<group>"; };
 		5C746B712584D60C00900D3D /* partial_sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = partial_sum.hpp; sourceTree = "<group>"; };
+		5C746B752585FEA000900D3D /* Secion4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Secion4.cpp; sourceTree = "<group>"; };
+		5C746B762585FEA000900D3D /* Secion4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Secion4.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 			children = (
 				5C746B5D25837D5C00900D3D /* Section3.cpp */,
 				5C746B5E25837D5C00900D3D /* Section3.hpp */,
+				5C746B752585FEA000900D3D /* Secion4.cpp */,
+				5C746B762585FEA000900D3D /* Secion4.hpp */,
 			);
 			path = CrashCourse;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				5C746B662584A48A00900D3D /* division_problem.cpp in Sources */,
 				5C746B5F25837D5C00900D3D /* Section3.cpp in Sources */,
 				5C746B722584D60C00900D3D /* partialSum.cpp in Sources */,
+				5C746B772585FEA000900D3D /* Secion4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
