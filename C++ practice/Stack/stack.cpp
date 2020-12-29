@@ -30,7 +30,7 @@ bool isFull() {
 void push(int x) {
     if(isFull()) {
         cout << "error stack is full." << endl;
-        return
+        return;
     }
     st[top] = x;
     ++top;

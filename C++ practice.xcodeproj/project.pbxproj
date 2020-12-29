@@ -19,6 +19,8 @@
 		5C8B10D62594B9AF00A9AEA8 /* Section5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B10D42594B9AF00A9AEA8 /* Section5.cpp */; };
 		5C8E9F43259AFAEA00115CA0 /* Section6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F41259AFAEA00115CA0 /* Section6.cpp */; };
 		5C8E9F48259B0A5200115CA0 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F46259B0A5200115CA0 /* stack.cpp */; };
+		5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4A259B141500115CA0 /* Section6-2.cpp */; };
+		5C8E9F51259B23E100115CA0 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4F259B23E100115CA0 /* queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +60,10 @@
 		5C8E9F42259AFAEA00115CA0 /* Section6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Section6.hpp; sourceTree = "<group>"; };
 		5C8E9F46259B0A5200115CA0 /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
 		5C8E9F47259B0A5200115CA0 /* stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
+		5C8E9F4A259B141500115CA0 /* Section6-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Section6-2.cpp"; sourceTree = "<group>"; };
+		5C8E9F4B259B141500115CA0 /* Section6-2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Section6-2.hpp"; sourceTree = "<group>"; };
+		5C8E9F4F259B23E100115CA0 /* queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		5C8E9F50259B23E100115CA0 /* queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		5C44017924124FF50095787C /* C++ practice */ = {
 			isa = PBXGroup;
 			children = (
+				5C8E9F4E259B23D400115CA0 /* Queue */,
 				5C8E9F45259B0A4300115CA0 /* Stack */,
 				5C8B10CD25920C1900A9AEA8 /* LinkedList */,
 				5C746B7B258C8EFD00900D3D /* GeneralizedBinarySearch */,
@@ -123,6 +130,8 @@
 				5C8B10D52594B9AF00A9AEA8 /* Section5.hpp */,
 				5C8E9F41259AFAEA00115CA0 /* Section6.cpp */,
 				5C8E9F42259AFAEA00115CA0 /* Section6.hpp */,
+				5C8E9F4A259B141500115CA0 /* Section6-2.cpp */,
+				5C8E9F4B259B141500115CA0 /* Section6-2.hpp */,
 			);
 			path = CrashCourse;
 			sourceTree = "<group>";
@@ -179,6 +188,15 @@
 				5C8E9F47259B0A5200115CA0 /* stack.hpp */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		5C8E9F4E259B23D400115CA0 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E9F4F259B23E100115CA0 /* queue.cpp */,
+				5C8E9F50259B23E100115CA0 /* queue.hpp */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +264,9 @@
 				5C746B662584A48A00900D3D /* division_problem.cpp in Sources */,
 				5C746B5F25837D5C00900D3D /* Section3.cpp in Sources */,
 				5C746B7E258C8F2600900D3D /* generalized_birary_search.cpp in Sources */,
+				5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */,
 				5C746B722584D60C00900D3D /* partialSum.cpp in Sources */,
+				5C8E9F51259B23E100115CA0 /* queue.cpp in Sources */,
 				5C746B772585FEA000900D3D /* Secion4.cpp in Sources */,
 				5C8B10D62594B9AF00A9AEA8 /* Section5.cpp in Sources */,
 			);
