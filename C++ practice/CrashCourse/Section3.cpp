@@ -20,3 +20,41 @@ int key_to_universe[]{3, 4, 6};
 
 int* ptr_to_iniverse = key_to_universe;
 
+void petruchio(const char* shrew) {
+    printf("Fear not, %s", shrew);
+}
+
+struct Avout {
+    Avout(const char* name) : name { name } {
+        
+    }
+    void announce() const {
+        printf("My name is %s", name);
+    }
+    const char* name;
+};
+
+int main() {
+    auto year{ 2020 };
+    
+    Avout raz{ "Erasms" };
+    raz.announce();
+}
+
+struct Dwarf {
+    
+};
+
+Dwarf dwarves[13];
+
+struct Contract {
+    void add(const Dwarf&);
+};
+
+void form_company(Contract &contract) {
+    for(const auto& dwarf : dwarves) {
+        contract.add(dwarf);
+    }
+}
+
+

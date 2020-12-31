@@ -21,6 +21,7 @@
 		5C8E9F48259B0A5200115CA0 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F46259B0A5200115CA0 /* stack.cpp */; };
 		5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4A259B141500115CA0 /* Section6-2.cpp */; };
 		5C8E9F51259B23E100115CA0 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4F259B23E100115CA0 /* queue.cpp */; };
+		5C8E9F57259DDDFA00115CA0 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F55259DDDFA00115CA0 /* graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		5C8E9F4B259B141500115CA0 /* Section6-2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Section6-2.hpp"; sourceTree = "<group>"; };
 		5C8E9F4F259B23E100115CA0 /* queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		5C8E9F50259B23E100115CA0 /* queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
+		5C8E9F55259DDDFA00115CA0 /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		5C8E9F56259DDDFA00115CA0 /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		5C44017924124FF50095787C /* C++ practice */ = {
 			isa = PBXGroup;
 			children = (
+				5C8E9F54259DDDE600115CA0 /* Graph */,
 				5C8E9F4E259B23D400115CA0 /* Queue */,
 				5C8E9F45259B0A4300115CA0 /* Stack */,
 				5C8B10CD25920C1900A9AEA8 /* LinkedList */,
@@ -199,6 +203,15 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
+		5C8E9F54259DDDE600115CA0 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E9F55259DDDFA00115CA0 /* graph.cpp */,
+				5C8E9F56259DDDFA00115CA0 /* graph.hpp */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +280,7 @@
 				5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */,
 				5C746B722584D60C00900D3D /* partialSum.cpp in Sources */,
 				5C8E9F51259B23E100115CA0 /* queue.cpp in Sources */,
+				5C8E9F57259DDDFA00115CA0 /* graph.cpp in Sources */,
 				5C746B772585FEA000900D3D /* Secion4.cpp in Sources */,
 				5C8B10D62594B9AF00A9AEA8 /* Section5.cpp in Sources */,
 			);
