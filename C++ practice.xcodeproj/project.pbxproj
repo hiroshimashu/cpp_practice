@@ -22,6 +22,9 @@
 		5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4A259B141500115CA0 /* Section6-2.cpp */; };
 		5C8E9F51259B23E100115CA0 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F4F259B23E100115CA0 /* queue.cpp */; };
 		5C8E9F57259DDDFA00115CA0 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F55259DDDFA00115CA0 /* graph.cpp */; };
+		5C8E9F5B25A1F6F900115CA0 /* Section4-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F5925A1F6F900115CA0 /* Section4-2.cpp */; };
+		5CA9B93925A9951B002DD6A1 /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B93725A9951B002DD6A1 /* heap.cpp */; };
+		5CA9B93F25ADE1B9002DD6A1 /* UnitonFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B93D25ADE1B9002DD6A1 /* UnitonFind.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +70,12 @@
 		5C8E9F50259B23E100115CA0 /* queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
 		5C8E9F55259DDDFA00115CA0 /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
 		5C8E9F56259DDDFA00115CA0 /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
+		5C8E9F5925A1F6F900115CA0 /* Section4-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Section4-2.cpp"; sourceTree = "<group>"; };
+		5C8E9F5A25A1F6F900115CA0 /* Section4-2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Section4-2.hpp"; sourceTree = "<group>"; };
+		5CA9B93725A9951B002DD6A1 /* heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
+		5CA9B93825A9951B002DD6A1 /* heap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = heap.hpp; sourceTree = "<group>"; };
+		5CA9B93D25ADE1B9002DD6A1 /* UnitonFind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitonFind.cpp; sourceTree = "<group>"; };
+		5CA9B93E25ADE1B9002DD6A1 /* UnitonFind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UnitonFind.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,8 @@
 		5C44017924124FF50095787C /* C++ practice */ = {
 			isa = PBXGroup;
 			children = (
+				5CA9B93C25ADE19A002DD6A1 /* UnionFind */,
+				5CA9B93625A9950F002DD6A1 /* Heap */,
 				5C8E9F54259DDDE600115CA0 /* Graph */,
 				5C8E9F4E259B23D400115CA0 /* Queue */,
 				5C8E9F45259B0A4300115CA0 /* Stack */,
@@ -136,6 +147,8 @@
 				5C8E9F42259AFAEA00115CA0 /* Section6.hpp */,
 				5C8E9F4A259B141500115CA0 /* Section6-2.cpp */,
 				5C8E9F4B259B141500115CA0 /* Section6-2.hpp */,
+				5C8E9F5925A1F6F900115CA0 /* Section4-2.cpp */,
+				5C8E9F5A25A1F6F900115CA0 /* Section4-2.hpp */,
 			);
 			path = CrashCourse;
 			sourceTree = "<group>";
@@ -212,6 +225,24 @@
 			path = Graph;
 			sourceTree = "<group>";
 		};
+		5CA9B93625A9950F002DD6A1 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9B93725A9951B002DD6A1 /* heap.cpp */,
+				5CA9B93825A9951B002DD6A1 /* heap.hpp */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		5CA9B93C25ADE19A002DD6A1 /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9B93D25ADE1B9002DD6A1 /* UnitonFind.cpp */,
+				5CA9B93E25ADE1B9002DD6A1 /* UnitonFind.hpp */,
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,10 +302,13 @@
 				5C8B10D025920C3100A9AEA8 /* linked_list.cpp in Sources */,
 				5C746B6C2584AE6C00900D3D /* binarySearch.cpp in Sources */,
 				5C746B59257E824200900D3D /* memorized_induction.cpp in Sources */,
+				5CA9B93F25ADE1B9002DD6A1 /* UnitonFind.cpp in Sources */,
 				5C44017B24124FF50095787C /* main.cpp in Sources */,
+				5CA9B93925A9951B002DD6A1 /* heap.cpp in Sources */,
 				5C8E9F48259B0A5200115CA0 /* stack.cpp in Sources */,
 				5C8E9F43259AFAEA00115CA0 /* Section6.cpp in Sources */,
 				5C746B662584A48A00900D3D /* division_problem.cpp in Sources */,
+				5C8E9F5B25A1F6F900115CA0 /* Section4-2.cpp in Sources */,
 				5C746B5F25837D5C00900D3D /* Section3.cpp in Sources */,
 				5C746B7E258C8F2600900D3D /* generalized_birary_search.cpp in Sources */,
 				5C8E9F4C259B141500115CA0 /* Section6-2.cpp in Sources */,

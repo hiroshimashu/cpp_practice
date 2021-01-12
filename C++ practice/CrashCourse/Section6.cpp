@@ -52,3 +52,31 @@ private:
 void consumer(SimpleUnquePointer<Tracer> consumer_ptr) {
     printf("cons");
 }
+
+template<typename T>
+T square(T value) {
+    return value * value;
+}
+
+template<typename T>
+T mean(T* values, size_t length) {
+    static_assert(std::is_default_constructible<T>(), "Type must be default constructible.");
+    static_assert(std::is_copy_constructible<T>(), "Type must be copy constructible");
+    static_assert(std::is_arithmetic<T>(), "Type must support addition and division");
+    static_assert(std::is_constructible<T, size_t>(), "Type must be cohnstructible from size_t");
+    T result{};
+    for (size_t i{}; i < length; i++) {
+        result += values[i];
+    }
+    
+    return result / length;
+}
+
+template<typename T, typename... Arguments>
+SimpleUnquePointer<T> make_simple_unique(Arguments... arguments) {
+    return SimpleUnquePointer<T>{ new T{ arguments... }};
+}
+
+
+
+
