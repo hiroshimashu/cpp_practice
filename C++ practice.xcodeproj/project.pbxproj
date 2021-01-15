@@ -25,6 +25,7 @@
 		5C8E9F5B25A1F6F900115CA0 /* Section4-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E9F5925A1F6F900115CA0 /* Section4-2.cpp */; };
 		5CA9B93925A9951B002DD6A1 /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B93725A9951B002DD6A1 /* heap.cpp */; };
 		5CA9B93F25ADE1B9002DD6A1 /* UnitonFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B93D25ADE1B9002DD6A1 /* UnitonFind.cpp */; };
+		5CA9B94425B19AD8002DD6A1 /* Section7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B94225B19AD8002DD6A1 /* Section7.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		5CA9B93825A9951B002DD6A1 /* heap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = heap.hpp; sourceTree = "<group>"; };
 		5CA9B93D25ADE1B9002DD6A1 /* UnitonFind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitonFind.cpp; sourceTree = "<group>"; };
 		5CA9B93E25ADE1B9002DD6A1 /* UnitonFind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UnitonFind.hpp; sourceTree = "<group>"; };
+		5CA9B94225B19AD8002DD6A1 /* Section7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Section7.cpp; sourceTree = "<group>"; };
+		5CA9B94325B19AD8002DD6A1 /* Section7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Section7.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 				5C8E9F4B259B141500115CA0 /* Section6-2.hpp */,
 				5C8E9F5925A1F6F900115CA0 /* Section4-2.cpp */,
 				5C8E9F5A25A1F6F900115CA0 /* Section4-2.hpp */,
+				5CA9B94225B19AD8002DD6A1 /* Section7.cpp */,
+				5CA9B94325B19AD8002DD6A1 /* Section7.hpp */,
 			);
 			path = CrashCourse;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				5C746B6C2584AE6C00900D3D /* binarySearch.cpp in Sources */,
 				5C746B59257E824200900D3D /* memorized_induction.cpp in Sources */,
 				5CA9B93F25ADE1B9002DD6A1 /* UnitonFind.cpp in Sources */,
+				5CA9B94425B19AD8002DD6A1 /* Section7.cpp in Sources */,
 				5C44017B24124FF50095787C /* main.cpp in Sources */,
 				5CA9B93925A9951B002DD6A1 /* heap.cpp in Sources */,
 				5C8E9F48259B0A5200115CA0 /* stack.cpp in Sources */,
