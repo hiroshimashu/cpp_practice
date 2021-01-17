@@ -54,6 +54,18 @@ struct Heap {
     bool bucket_used[n_heap_buckets]{};
 }
 
+struct Point {
+    Point() : x{}, y{}, z{} {
+        printf("Point at %p constructed. \n", this);
+    }
+    
+    ~Point() {
+        printf("Point at %p destructed.\n", this);
+    }
+    double x, y, z;
+    
+}
+
 int main() {
     CheckedInteger a{ 100 };
     auto b = a + 200;

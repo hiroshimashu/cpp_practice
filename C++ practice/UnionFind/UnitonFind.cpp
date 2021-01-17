@@ -21,10 +21,14 @@ struct UnionFind {
         else return par[x] = root(par[x]);
     }
     
+    bool issame(int x, int y) {
+        return root(x) == root(y);
+    }
+    
     bool unite(int x, int y) {
         x = root(x); y = root(y);
         
-        if(x== y) return false;
+        if(x == y) return false;
         
         if(siz[x] < siz[y]) swap(x, y);
         
